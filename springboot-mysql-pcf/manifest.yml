@@ -1,0 +1,12 @@
+applications:
+- name: my-review
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  path: target/my-reviews.jar
+  timeout: 120
+  routes:
+  - route: my-review-vikas-111.cfapps.io
+  stack: cflinuxfs3
+services:
+  - sqldb
