@@ -1,0 +1,12 @@
+applications:
+- name: springboot-PCF-mysql
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  path: target/springboot-PCF-mysql-0.0.1-SNAPSHOT.jar
+  timeout: 120
+  routes:
+  - route: sb-pcf-mysql-vikas-111.cfapps.io
+  stack: cflinuxfs3
+services:
+  - sqldb
