@@ -5,6 +5,11 @@
 	http://localhost:8080/employees
 	
 	https://sb-pcf-mysql-vikas-111.cfapps.io/employees
+
+#### Application Requests
+
+![image](https://user-images.githubusercontent.com/63532275/88376686-8f00e380-cdbb-11ea-8663-65867b714e33.png)
+![image](https://user-images.githubusercontent.com/63532275/88376739-a8a22b00-cdbb-11ea-93a5-fcbf86f6aa28.png)
 	
 #### PCF Deployment
 	In Cloud Foundry, services are on demand resources that users can provision and use for their deployed application.
